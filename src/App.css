@@ -1,0 +1,92 @@
+html {
+  font-family: 'Open Sans', ;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+body {
+  background-image: initial;
+}
+
+.projects li a:hover {
+  color: black;
+  background-color: white
+}
+
+.projects li a, .projects li a:hover {
+  transition: 0.25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  -o-transition: .25 ease-in-out
+}
+
+.projects li a {
+  list-style-type: none;
+  font-family: "Open Sans";
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.projects > ul a{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  margin-top: 10px;
+  font-family: "Open Sans";
+  padding: 3px;
+}
+
+.projects li {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  align-content: stretch;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.projects {
+  margin-right: 35px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  width: 205px;
+}
+
+.name {
+  font-size: 80px;
+  font-family: "Open Sans";
+  line-height: 0;
+  margin-left: 35px;
+}
+
+.project-header {
+  margin-left: 35px;
+  font-family: "Open Sans";
+}
+
+.adjective {
+  margin-left: 35px;
+  /* font-family: "Open Sans"; */
+}
+
+.about {
+  margin-left: 35px;
+}
+
+.about-content {
+  text-align: justify;
+  font-size: 20px;
+  margin: 0 35px auto;
+
+}
+
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 50px;
+  }
+}
