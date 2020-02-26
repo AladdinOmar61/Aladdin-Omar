@@ -15,12 +15,14 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
+        <div className="cover-image">
+        <h1 className="name">Aladdin Omar</h1>
+        <p className="adjective">Software Developer</p>
+        </div>
         <About />
         <Projects/>
         <Contact />
-        <h1 className="name">Aladdin Omar</h1>
-        <p className="adjective">Software Developer</p>
-        <h2 className="experience">Experience</h2>
+        {/* <h2 className="experience">Experience</h2> */}
       </div>
     );
   }
