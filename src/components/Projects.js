@@ -17,7 +17,7 @@ function Projects() {
               alt="betch"
             />
           </a>
-          <p className="project-desc"><span>BET-CH:</span> the high-low betting card game! Guess if the next card drawn will be higher, lower, or the same as the current one on the screen. <span>bet-cha</span> can't beat it first try!</p>
+          <p className="project-desc"><span className="betch">BET-CH:</span> the high-low betting card game! Guess if the next card drawn will be higher, lower, or the same as the current one on the screen. <span>bet-cha</span> can't beat it first try!</p>
         </li>
         <li>
           <a
