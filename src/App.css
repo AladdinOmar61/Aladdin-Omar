@@ -59,10 +59,13 @@ a {
   font-family: "Open Sans";
   text-align: center;
   padding-top: 100px;
+  position: relative;
+  top: 55px;
 }
 
 .adjective {
   margin-left: 35px;
+  font-size: 25px;
   /* font-family: "Open Sans"; */
 }
 
@@ -110,6 +113,12 @@ nav a {
   height: 300px;
 }
 
+/* #first-project-img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+} */
+
 .project-desc {
   margin-top: 50px;
   margin-left: 20px;
@@ -132,10 +141,23 @@ nav a {
 }
 
 .cover-image {
-  background-image: url("https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-24.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 310px;
+  width: 100vw;
+  height: 610px;
+  overflow: hidden;
+  position: relative;
+}
+
+.name-background {
+  object-fit: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.cover-text {
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+  z-index: 5;
 }
 
 .project-name {
@@ -171,9 +193,17 @@ nav a {
   color: yellow;
 }
 
-/* #projects {
-  height: 80vh;
-} */
+.github-link {
+  margin-left: 20px;
+}
+
+.github-path {
+  color: yellow;
+}
+
+.projects {
+  margin-bottom: 40px;
+}
 
 @media only screen and (max-width: 500px) {
   .name {
@@ -249,5 +279,9 @@ nav a {
 
   .project-desc {
     margin-right: 30px;
+  }
+
+  .name-background {
+    height: 400px;
   }
 }

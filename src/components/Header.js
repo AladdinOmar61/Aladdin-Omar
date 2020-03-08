@@ -7,7 +7,7 @@ function Header() {
                 <a className="header-link" href="/#about">About</a>
                 <a className="header-link" href="/#projects">Projects</a>
                 <a className="header-link" href="/#contact">Contact</a>
-                <a className="header-link" href="https://docdro.id/S8qZKxO" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a className="header-link" href="https://docdro.id/aIARE4t" target="_blank" rel="noopener noreferrer">Resume</a>
             </nav>
         </div>
     )

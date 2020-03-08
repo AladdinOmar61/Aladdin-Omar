@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./components/Header"
-import About from './components/About'
-import Projects from './components/Projects';
-import Contact from './components/Contact'
+import Header from "./components/Header";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -14,13 +14,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Header />
         <div className="cover-image">
-        <h1 className="name">Aladdin Omar</h1>
-        <p className="adjective">Software Developer</p>
+          <img
+            className="name-background"
+            src="https://images.wallpaperscraft.com/image/macbook_pro_apple_laptop_headphones_table_98893_1280x720.jpg"
+          />
+          <div className="cover-text">
+            <h1 className="name">Aladdin Omar</h1>
+            <p className="adjective">Software Developer</p>
+          </div>
         </div>
         <About />
-        <Projects/>
+        <Projects />
         <Contact />
         {/* <h2 className="experience">Experience</h2> */}
       </div>
