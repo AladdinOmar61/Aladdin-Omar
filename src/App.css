@@ -132,8 +132,8 @@ nav a {
   text-align: center;
   border-bottom: solid rgba(250, 250, 250, 0) 1px;
   transition: 0.5s;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .header-link:hover {
@@ -205,6 +205,39 @@ nav a {
   margin-bottom: 40px;
 }
 
+.skills-header {
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.skills-list img {
+  width: 55px;
+  height: 50px;
+  box-shadow: 5px 15px white;
+  margin: 10px;
+  border: solid black 1px;
+}
+
+#skills {
+  padding-top: 100px;
+}
+
+.selfie {
+  margin-left: 38%;
+  margin-top: 10%;
+  width: 350px;
+  height: 250px;
+  box-shadow: 5px 15px white;
+  border: solid black 1px;
+}
+
 @media only screen and (max-width: 500px) {
   .name {
     font-size: 50px;
@@ -235,7 +268,7 @@ nav a {
     font-size: 10px;
     margin: 0;
     padding: 0;
-    width: 90px;
+    width: 45px;
   }
 
   .about-content {

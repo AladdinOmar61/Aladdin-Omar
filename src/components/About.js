@@ -3,6 +3,11 @@ import React from "react";
 function About() {
   return (
     <div id="about">
+      <img
+        className="selfie"
+        src="https://i.imgur.com/JJ6tiiM.jpg?1"
+        alt="linkedin profile"
+      />
       <h2 className="about">About Me</h2>
       <p className="about-content">
         I am a thoughtful and empathetic Web Developer who is passionate about
@@ -16,4 +21,4 @@ function About() {
   );
 }
 
-export default About
+export default About;
