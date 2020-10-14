@@ -1,0 +1,38 @@
+.about {
+  z-index: -1;
+  height: 100rem;
+  margin-top: -37rem;
+  background-color: rgba($red, 0.3);
+  padding-top: 30rem;
+
+    &__header {
+      text-shadow: 0.5rem 1rem 2rem rgba($black, 0.2);
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      font-weight: 400;
+      color: grey;
+    }
+
+    &__content{
+      font-size: 2rem;
+      width: 50%;
+      position: absolute;
+      left: 45%;
+      color: $black;
+    }
+
+    &__container{
+      margin-top: 20rem;
+    }
+  }
+
+  
+.selfie{
+  @include box-shadow;
+    width: 31rem;
+    height: 25rem;
+    position: absolute;
+    left: 10%;
+}
