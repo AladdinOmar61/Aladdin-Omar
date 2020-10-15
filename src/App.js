@@ -4,7 +4,7 @@ import "./sass/_main.scss";
 import About from "./components/About";
 import Projects from "./components/Projects";
 // import Contact from "./components/Contact";
-// import Skills from './components/Skills';
+import Skills from './components/Skills';
 
 class App extends Component {
   render() {
@@ -14,11 +14,10 @@ class App extends Component {
         <h1 className="header-name">Aladdin Omar</h1>
         <h2 className="header-name__title">Software Developer</h2>
         </div>
-        {/* <Header /> */}
         <About />
-        {/* <Skills /> */}
         <Projects />
-        {/* <Contact /> */}
+        <Skills />
+        {/* <Footer /> */}
       </div>
     );
   }

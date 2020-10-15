@@ -1,0 +1,21 @@
+.skills{
+    background-color: rgba($red, 0.3);
+    padding: 6rem;
+    &__header {
+        text-align: center;
+        font-size: 4rem;
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+    }
+
+    &-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 14rem);
+    }
+
+    &-img {
+        width: 11rem;
+        height: 10rem;
+    }
+}
