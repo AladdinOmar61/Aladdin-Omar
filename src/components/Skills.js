@@ -77,6 +77,10 @@ function Skills() {
           <p className="skills-div-name">GITHUB</p>
           <img className="skills-div-img" src={"github.png"} alt="github" />
         </div>
+        <div className="skills-div">
+          <p className="skills-div-name">MONGO DB</p>
+          <img className="skills-div-img" src={"mongodb.png"} alt="mongodb" />
+        </div>
       </div>
     </div>
   );
