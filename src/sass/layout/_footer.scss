@@ -3,26 +3,26 @@
   position: relative;
   background-color: $dark-color;
   &-icon {
-    border: solid $red-orange 3px;
-    border-radius: 50px;
-    position: absolute;
-    left: 47%;
-    top: 5%;
+    background-image: url(/../web-icon.png);
+    z-index: 200;
     width: 9rem;
     height: 9rem;
-    padding-top: 0.5rem;
-    background-color: $white;
-    text-transform: uppercase;
-    font-size: 6rem;
-    text-align: center;
-    color: $red-orange;
+    margin: 0 auto;
+    background-size: cover;
   }
+
   &-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 6rem;
+    @include respond(phone) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
   }
   &-contact {
     &-header {
@@ -32,19 +32,39 @@
       text-transform: uppercase;
       color: $white;
       text-align: center;
-      font-size: 3rem;
+      font-size: 2.5rem;
+
+      @include respond(tab-port) {
+        font-size: 2rem;
+      }
     }
 
     &-email {
       padding: 1rem;
       color: $white;
-      font-size: 2rem;
+      font-size: 1.5rem;
+      @include respond(tab-port) {
+        font-size: 1rem;
+      }
     }
 
     &-phone {
       padding: 1rem;
       color: $white;
-      font-size: 2rem;
+      font-size: 1.5rem;
+
+      @include respond(tab-land) {
+        text-align: center;
+      }
+
+      @include respond(tab-port) {
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      @include respond(phone) {
+        text-align: center;
+      }
     }
   }
 
@@ -53,25 +73,20 @@
       padding: 2rem;
       border-bottom: solid $grey 1px;
       color: $white;
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-transform: uppercase;
       letter-spacing: 0.5rem;
       text-align: center;
+      @include respond(tab-port) {
+        font-size: 2rem;
+      }
     }
-
-    // &-flex {
-    //   padding: 1.5rem;
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: space-evenly;
-    //   align-items: center;
-    // }
 
     &-linkedin {
       display: block;
       text-decoration: none;
       color: $white;
-      font-size: 2rem;
+      font-size: 1.5rem;
       padding: 1rem;
       font-weight: 700;
       transition: all 0.3s;
@@ -80,13 +95,16 @@
         color: $red-orange;
         transform: scale(1.1);
       }
+      @include respond(tab-port) {
+        font-size: 1rem;
+      }
     }
 
     &-github {
       display: block;
       text-decoration: none;
       color: $white;
-      font-size: 2rem;
+      font-size: 1.5rem;
       padding: 1rem;
       font-weight: 700;
       transition: all 0.3s;
@@ -94,6 +112,15 @@
         @include box-shadow;
         color: $red-orange;
         transform: scale(1.1);
+      }
+
+      @include respond(tab-land) {
+        text-align: center;
+      }
+
+      @include respond(tab-port) {
+        font-size: 1rem;
+        text-align: center;
       }
     }
   }

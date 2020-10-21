@@ -1,15 +1,45 @@
 .header-name {
+  text-overflow: ellipsis;
   color: $white;
   @include center;
   text-transform: uppercase;
   font-size: 5.5rem;
   letter-spacing: 0.5rem;
+
+  @include respond(tab-land) {
+    font-size: 5rem;
+  }
+
+  @include respond(tab-port) {
+    font-size: 4rem;
+  }
+
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
+
   &__title {
+    text-overflow: ellipsis;
     color: $white;
     text-transform: uppercase;
-    @include center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
     font-size: 3rem;
-    margin-top: 5rem;
+    margin: 0 auto;
     letter-spacing: 0.7rem;
+
+    @include respond(tab-land) {
+      font-size: 2rem;
+    }
+
+    @include respond(tab-port) {
+      font-size: 1.5rem;
+    }
+
+    @include respond(phone) {
+      font-size: 8px;
+    }
   }
 }

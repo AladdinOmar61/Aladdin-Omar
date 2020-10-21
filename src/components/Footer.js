@@ -3,14 +3,14 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <div className="footer-icon">A</div>
+      <div className="footer-icon">&nbsp;</div>
       <div className="footer-flex">
         <div className="footer-contact">
           <h2 className="footer-contact-header">Contact</h2>
           <h4 className="footer-contact-email">
-            Email: Aladdin.Omar61@gmail.com
+            Aladdin.Omar61@gmail.com
           </h4>
-          <h4 className="footer-contact-phone">Phone: 917-628-1184</h4>
+          <h4 className="footer-contact-phone">917-628-1184</h4>
         </div>
         <div className="footer-links">
           <h4 className="footer-links-header">Links</h4>

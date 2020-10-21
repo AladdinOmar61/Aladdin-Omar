@@ -8,8 +8,8 @@ function About() {
           className="selfie"
           src="https://i.imgur.com/JJ6tiiM.jpg?1"
           alt="linkedin profile"
-        />
-        <h3 className="about__header margin-top-medium">About me</h3>
+        />{" "}
+        <h3 className="about__header">About me</h3>
         <p className="about__content">
           I am an enthusiastic and adaptive Web Developer who is passionate
           about creating websites, games, and applications that provide users
