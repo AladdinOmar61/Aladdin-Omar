@@ -81,6 +81,14 @@ function Skills() {
           <p className="skills-div-name">MONGO DB</p>
           <img className="skills-div-img" src={"mongodb.png"} alt="mongodb" />
         </div>
+        <div className="skills-div">
+          <p className="skills-div-name">SHOPIFY</p>
+          <img className="skills-div-img" src={"shopify-logo.jpg"} alt="mongodb" />
+        </div>
+        <div className="skills-div">
+          <p className="skills-div-name">LIQUID.JS</p>
+          <img className="skills-div-img" src={"liquidJS.png"} alt="mongodb" />
+        </div>
       </div>
     </div>
   );

@@ -17,11 +17,11 @@ function Footer() {
           <div className="footer-links-flex">
             <a
               className="footer-links-linkedin"
-              href="https://www.linkedin.com/in/aladdin-omar61/"
+              href="https://www.linkedin.com/in/alaaeldean-omar61/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://www.linkedin.com/in/aladdin-omar61/
+              https://www.linkedin.com/in/alaaeldean-omar61/
             </a>
             <a
               className="footer-links-github"

@@ -51,26 +51,14 @@ function Projects() {
             <div className="project__pic-2">&nbsp;</div>
             <div className="project__info">
               <p className="project__desc margin-top-medium">
-                the cheetah based social media app! Log in and create, edit or
-                delete your posts as well as comment on others, or just check
-                out what other users have sent if you do not feel like loggin
-                in.
+                JOUJOU is an apparel company that sells womens jackets and pants
+                and are available in all retail stores in the country.
               </p>
               <div className="langs">
                 <img
                   className="langs-img"
-                  src="https://cdn4.iconfinder.com/data/icons/iconsimple-programming/512/css-512.png"
-                  alt="css"
-                />
-                <img
-                  className="langs-img"
-                  src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
-                  alt="react"
-                />
-                <img
-                  className="langs-img"
-                  src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png"
-                  alt="express"
+                  src="https://th.bing.com/th/id/OIP.6TPtbsN2PGlh8m2SZY541wHaHa?pid=ImgDet&rs=1"
+                  alt="shopify"
                 />
               </div>
             </div>
@@ -78,19 +66,11 @@ function Projects() {
           <div className="project__side project__side-back">
             <a
               className="project__link"
-              href="http://cheetohphoto.surge.sh/"
+              href="https://joujou.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Visit
-            </a>
-            <a
-              className="project__github"
-              href="https://github.com/AladdinOmar61/full-stack-photo-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
             </a>
           </div>
         </div>
